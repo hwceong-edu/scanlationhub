@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/hwceong-edu/scanlatorshub/issues"
   },
-  "homepage": "https://github.com/hwceong-edu/scanlatorshub#readme"
+  "homepage": "https://github.com/hwceong-edu/scanlatorshub#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "feed-read": "0.0.1",
+    "rss-parser": "^3.11.0"
+  }
 }
