@@ -1,0 +1,71 @@
+
+/*
+
+    Base HTML tags
+
+*/
+body {
+    background-color: #181A18;
+}
+
+a {
+    text-decoration: none;
+}
+
+h4 {
+    color: #F5F6FB;
+}
+
+p {
+    color: #CBCBCB;
+}
+
+/*--------------------------------------*/
+
+/*
+
+    Class Styles
+
+*/
+
+.container {
+    width: 65%;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+
+.scanlators {
+    display: grid;
+    grid-template-columns: 0.345fr 1.2fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    background-color: #252525;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.55);
+    margin-bottom: 30px;
+}
+
+.logo {
+    text-align: center;
+    vertical-align: middle;
+    height:100%;
+    border-right: 2px solid black;
+    color: #e50815;
+}
+
+.scrollable-container {
+    height: 300px;
+    overflow-y: auto;
+}
+
+.chapter {}
+
+.entry {}
+
+.group {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-size: 24px;
+}
+
+/*--------------------------------------*/
+
+
