@@ -14,6 +14,7 @@ class FetchRSSData extends Component{
         request.onreadystatechange = () => {
             if (request.readyState == 4 && request.status == 200) {
                 var myObj = JSON.parse(request.responseText);
+                console.log("Updating: " + this.props.url);
                 myObj.items.forEach(item => {
                     this.setState((state) => {
                         return {items: this.state.items.concat(item)}
