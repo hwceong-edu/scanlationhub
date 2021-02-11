@@ -10,4 +10,8 @@ app.get('/', (req, res) =>
   res.send("Hello World!")
 );
 
+app.get('/feed', (req, res) =>
+  
+);
+
 app.listen(port);
