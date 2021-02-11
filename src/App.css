@@ -22,6 +22,10 @@ p {
     color: #CBCBCB;
 }
 
+nav {
+    
+}
+
 /*--------------------------------------*/
 
 /*
@@ -29,6 +33,38 @@ p {
     Class Styles
 
 */
+
+.topbar {
+    background-color: #252525;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    text-align: center;
+}
+
+.topbar ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "title groups . . .";
+    list-style-type: none;
+    margin-top: 0px;
+    height: 50px;
+}
+
+.topbar li {
+    margin:auto;
+}
+
+.topbar li a {
+    color: #CBCBCB;
+}
+
+.topbar li a:hover {
+    color: #F5F6FB;
+}
 
 .container {
     width: 65%;

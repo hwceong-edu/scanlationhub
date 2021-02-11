@@ -1,34 +1,47 @@
 import { Component } from 'react';
 import './App.css';
-import Scanlators from './Scanlators.js';
+import Groups from './Groups.js';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 class App extends Component {
   constructor() {
     super();
-    this.state = {
-      urls: [
-          {
-              name: "Leviatan Scans",
-              url: "https%3A%2F%2Fleviatanscans.com%2Ffeed"
-          },
-          {
-              name: "Method Scans",
-              url: "https%3A%2F%2Fmethodscans.com%2Ffeed"
-          }
-      ]
-  }
   }
 
   render() {
-    return (
-      <div className="container">
-        {this.state.urls.map(item => (
-          <Scanlators name={item.name} url={item.url}/>
-        ))}
-      </div>
+      return (
+        <Router>
+          <div>
+            <nav className="topbar">
+              <ul>
+                <li>
+                  <Link to="/">ScanlationHub</Link>
+                </li>
+                <li>
+                  <Link to="/groups">Groups</Link>
+                </li>
+              </ul>
+            </nav>
+
+            <Switch>
+              <Route path="/groups">
+                <Groups />
+              </Route>
+              <Route path="/">
+                <Groups />
+              </Route>
+            </Switch>
+          </div>
+      </Router>
     );
   }
-  
+
 }
 
 export default App;
