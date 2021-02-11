@@ -8,27 +8,27 @@ class Groups extends Component {
         urls: [
             {
                 name: "Leviatan Scans",
-                url: "https%3A%2F%2Fleviatanscans.com%2Ffeed"
+                url: "https://leviatanscans.com/feed"
             },
             {
                 name: "Method Scans",
-                url: "https%3A%2F%2Fmethodscans.com%2Ffeed"
+                url: "https://methodscans.com/feed"
             },
             {
                 name: "Zero Scans",
-                url: "https%3A%2F%2Fzeroscans.com%2Ffeed"
+                url: "https://zeroscans.com/feed"
             },
             {
                 name: "Hatigarm Scanz",
-                url: "https%3A%2F%2Fhatigarmscanz.net%2Ffeed"
+                url: "https://hatigarmscanz.net/feed"
             },
             {
                 name: "SK Scans",
-                url: "https%3A%2F%2Fskscans.com%2Ffeed"
+                url: "https://skscans.com/feed"
             },
             {
                 name: "Edelgarde Scans",
-                url: "https%3A%2F%2Fedelgardescans.com%2Ffeed"
+                url: "https://edelgardescans.com/feed"
             }
             
         ]
