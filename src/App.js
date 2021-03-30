@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import './App.css';
 import Groups from './Groups.js';
+import Latest from './Latest.js';
 
 import {
   BrowserRouter as Router,
@@ -24,12 +25,18 @@ class App extends Component {
                   <Link to="/">ScanlationHub</Link>
                 </li>
                 <li>
+                  <Link to="/latest">Latest</Link>
+                </li>
+                <li>
                   <Link to="/groups">Groups</Link>
                 </li>
               </ul>
             </nav>
 
             <Switch>
+              <Route path="/latest">
+                <Latest />
+              </Route>
               <Route path="/groups">
                 <Groups />
               </Route>

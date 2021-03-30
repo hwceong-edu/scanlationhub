@@ -8,7 +8,7 @@ class Groups extends Component {
         urls: [
             {
                 name: "Leviatan Scans",
-                url: "https://leviatanscans.com/feed"
+                url: "https://leviatanscans.com/manga/feed/"
             },
             {
                 name: "Method Scans",
@@ -24,11 +24,15 @@ class Groups extends Component {
             },
             {
                 name: "SK Scans",
-                url: "https://skscans.com/feed"
+                url: "https://skscans.com/manga/feed/"
             },
             {
                 name: "Edelgarde Scans",
                 url: "https://edelgardescans.com/feed"
+            },
+            {
+                name: "Asura Scans",
+                url: "https://www.asurascans.com/feed"
             }
             
         ]
